@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEBRLNN Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome untuk ikon media sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigasi Utama Sticky -->
+    <header class="navbar">
+        <!-- Mengganti teks THEBRLNN dengan logo gambar -->
+        <a href="#home" class="logo-link">
+            <img src="logo.png" alt="Logo" class="navbar-logo">
+        </a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+        </nav>
+    </header>
+
+    <!-- Section 1: Home / Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-info">
+                <p>Digital Artist</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/thebrlnn" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:gmail@address.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="art1.jpg" alt="Art 1">
+            </div>
+            <div class="gallery-item">
+                <img src="art2.jpg" alt="Art 2">
+            </div>
+            <div class="gallery-item">
+                <img src="art3.jpg" alt="Art 3">
+            </div>
+            <div class="gallery-item">
+                <img src="art4.jpg" alt="Art 4">
+            </div>
+            <div class="gallery-item">
+                <img src="art5.jpg" alt="Art 5">
+            </div>
+            <div class="gallery-item">
+                <img src="art6.jpg" alt="Art 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: About -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="about-profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>My name is Brillian, but most people know me as Billy. I am an independent digital artist who enjoys creating character designs, mascots, and illustrated backgrounds.</p>
+                
+                <p>My journey in the world of art actually began when I was a child. Even back then, my family noticed my interest and talent in drawing—or at least, according to them, I was pretty good at it. Well, parents are always your number-one supporters, right?</p>
+                
+                <p>Because of that, my passion for art was fully supported. I started taking art classes at a very young age, continued throughout elementary school, and eventually attended an art school during my secondary education. In high school, I even took art preparation classes as a foundation for pursuing further education at university.</p>
+                
+                <p>Eventually, I decided to study architecture. One of the reasons was that my drawing style at the time caught the attention of some of the instructors. Interestingly, my style back then was very free, rough, and unpolished—completely different from the various techniques I would later learn.</p>
+                
+                <p>However, it was during this period that I gradually stopped painting. In fact, during some assessment sessions, we were not even allowed to use color in our drawings.</p>
+                
+                <p>As time went by, my life took a different direction. I moved from place to place several times and worked as a photographer until the pandemic arrived.</p>
+                
+                <p>Since the circumstances made it difficult for me to have enough space to create art traditionally as I used to, I decided to try something new: digital art. The desire to draw and paint again had become impossible to ignore.</p>
+                
+                <p>However, starting with digital art was not as easy as I had imagined. The process felt completely different from what I was used to, and it was far less intuitive for me. On top of that, after spending years without consistently practicing my drawing skills, I felt that much of my ability had significantly declined.</p>
+                
+                <p>It took me about a year of continuous learning, experimenting, failing, and trying again to gradually understand the new software and techniques. Through that long process, I discovered something I never expected: I completely fell in love with digital art.</p>
+                
+                <p>There are still so many things I want to learn and countless ideas I want to bring to life through my work. So, if you're interested, I invite you to follow along and witness my journey as I continue to grow and develop as a digital artist.</p>
+                
+                <p>P.S. I would also like to express my deepest gratitude to everyone who has supported and encouraged me to keep creating. I never imagined that this journey could grow as far as it has, especially with the help of social media.</p>
+                
+                <p>The support from fellow artists, challenges, comments, and all the interactions I've experienced along the way have become an incredible source of inspiration for me. Many things I never imagined would happen have come to life through this process.</p>
+                
+                <p>Thank you so much to everyone who has been a part of this journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Shop -->
+    <section id="shop" class="content-section">
+        <h2>Shop</h2>
+        <p>Layanan komisi artwork dan produk digital.</p>
+    </section>
+
+</body>
+</html>
